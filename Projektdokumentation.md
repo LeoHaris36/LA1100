@@ -19,12 +19,11 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1.o    |       Muss      |  Funktional    |  Als Spieler möchte ich eine Zufällige Zahl damit ich eine Zahl zum raten habe und das Spiel anfangen kann.  |
+| 1.o    |       Muss      |  Funktional    |  Als Spieler möchte ich eine Zufällige Zahl zwischen 1-100 damit ich eine Zahl zum raten habe und das Spiel anfangen kann.  |
 | 2.0  |     Muss         |    Funktional     |    Als Spieler möchte ich eine Zahl eingeben damit ich raten und gewinnen kann.               |
-| 3.0  |      Muss        |   Funktional      |      Als Spieler möchte ich einen Hinweis erhalten damit ich weiss wann ich gewonnen habe.           |
 | 3.1  |     Muss         |    Qualität     |      Als Spieler möchte ich wissen ob meine Zahl niedriger ist damit ich bessere Chancen habe die Zahl zu erraten       |
 | 3.2  |         Muss     |  Qualität       |          Als Spieler möchte ich wissen ob meine Zahl höher ist damit ich bessere Chancen habe die Zahl zu erraten       |
-| 3.3 |    Muss          |     Funktinal    |    Als Spieler möchte ich wissen wann ich die rictige Zahl geraten habe.               |
+| 3.3 |    Muss          |     Funktional    |    Als Spieler möchte ich wissen wann ich die richtige Zahl geraten habe.               |
 | 4.0  |     Muss         |   Qualität      |   Als Spieler möchte ich wissen wie viele male ich geraten habe damit ich die Resultate vergleichen kann                |
 | 5.0  | Muss | Funktional | Als Spieler möchte ich dass ich das Spiel richtig spielen kann ohne dass alles bei einer Fehleingabe verloren geht, damit ich richtig spielen kann  |
 
@@ -40,8 +39,15 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |  01.09     |     Sljivar      |       lernen wie man eine zufällige Zahl generiert, implemetieren, die Zahl lesen und festhalten      |      45min         |
+| 2.A, 3.1A, 3.2A, 3.3A |  01.09     |  Sljivar  |    Die Eingabe des Spielers lesen und festhalten, und ein hinweissystem implemetieren damit ich weiss ob ich zu tief, zu hoch oder richtig gerraten habe.  |  45min |
+| 3.1B, 3.2B, 3.3B | 01.09 | SLjivar | Einen Hinweis darauf geben ob man zu tief, zu hoch oder richtig geraten habe  | 45min |
+| 4.A | 8.09 | Sljvar | Alle Resulte speichern und Anzeigen lassen | 45min |
+| 4.B | 8.09 | Sljvar | Alle Resulte speichern und Anzeigen lassen | 45min |
+| 5.A | 15.09 | Sljivar | Eine Lösung für eine Fehleingaben implementieren | 45min |
+| 5.B | 15.09 | Sljivar | Eine Lösung für eine Fehleingaben implementieren | 45min |
+| ---- | ----- | --------- | ------------ | ------------- |
+
 
 Total: 
 
