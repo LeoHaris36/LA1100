@@ -19,8 +19,9 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |       Muss      |  Funktion    | Als eine funktion möchte ich das generierent von zufälligen Zahlen, damit ich eine Zahl habe die gerraten werden soll. |
+| 2  |        Muss         |   Funktion   |        Als eine funktion möchte ich dass der Benutzer Zahlen raten kann, damit ich die Zahl raten kann                    |
+| 3 | Muss | Funktion | ---------------------------------- |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
