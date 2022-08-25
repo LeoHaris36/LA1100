@@ -26,6 +26,7 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 | 3.3 |    Muss          |     Funktional    |    Als Spieler möchte ich wissen wann ich die richtige Zahl geraten habe.               |
 | 4.0  |     Muss         |   Qualität      |   Als Spieler möchte ich wissen wie viele male ich geraten habe damit ich die Resultate vergleichen kann                |
 | 5.0  | Muss | Funktional | Als Spieler möchte ich dass ich das Spiel richtig spielen kann ohne dass alles bei einer Fehleingabe verloren geht, damit ich richtig spielen kann  |
+| 6.0 | Kann | Qualität | Als Spieler möchte ich ein Punktesystem einführen, in welchem man seine Punkte wetten kann. Je mehr Veruche man braucht um die Zahl zu eraten desto weniger Punkte bekommt. Wenn man zu viele Versuche braucht gibt es minus Punkte, damit man mehr spass hat und mit anderen Punkte vergleichen kann.  |
 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
@@ -47,7 +48,10 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 | 4.B | 08.09 | Sljvar | Alle Resulte speichern und Anzeigen lassen | 45min |
 | 5.A | 15.09 | Sljivar | Eine Lösung für eine Fehleingaben implementieren | 45min |
 | 5.B | 15.09 | Sljivar | Eine Lösung für eine Fehleingaben implementieren | 45min |
-
+| 6.A | 29.09 | SLjivar | Ein Punktesystem implementieren mit Wetten | 45min |
+| 6.B | 29.09 | SLjivar | Ein Punktesystem implementieren mit Wetten | 45min |
+| 6.C | 29.09 | SLjivar | Ein Punktesystem implementieren mit Wetten | 45min |
+| 6.D | 29.09 | SLjivar | Ein Punktesystem implementieren mit Wetten | 45min |
 
 
 Total: 
