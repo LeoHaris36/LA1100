@@ -19,7 +19,7 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1.0   |       Muss      |  Funktional    |  Als Spieler möchte ich eine Zufällige Zahl zwischen 1-100 damit ich eine Zahl zum raten habe und das Spiel anfangen kann.  |
+| 1.0   |    Muss      |  Funktional    |  Als Spieler möchte ich eine Zufällige Zahl zwischen 1-100 damit ich eine Zahl zum raten habe und das Spiel anfangen kann.  |
 | 2.0  |     Muss         |    Funktional     |    Als Spieler möchte ich eine Zahl eingeben damit ich raten und gewinnen kann.               |
 | 3.1  |     Muss         |    Qualität     |      Als Spieler möchte ich wissen ob meine Zahl niedriger ist damit ich bessere Chancen habe die Zahl zu erraten       |
 | 3.2  |         Muss     |  Qualität       |          Als Spieler möchte ich wissen ob meine Zahl höher ist damit ich bessere Chancen habe die Zahl zu erraten       |
