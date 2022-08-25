@@ -19,18 +19,15 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |       Muss      |  Funktion    | Als eine funktion möchte ich das generierent von zufälligen Zahlen, damit ich eine Zahl habe die gerraten werden soll. |
-| 2  |        Muss         |   Funktion   |        Als eine funktion möchte ich dass der Benutzer Zahlen raten kann, damit ich die Zahl raten kann                    |
-| 3 | Muss | Funktion | ---------------------------------- |
+| 1.o    |       Muss      |  Funktional    |  Als Spieler möchte ich eine Zufällige Zahl damit ich eine Zahl zum raten habe und das Spiel anfangen kann.  |
+| 2.0  |     Muss         |    Funktional     |    Als Spieler möchte ich eine Zahl eingeben damit ich raten und gewinnen kann.               |
+| 3.0  |      Muss        |   Funktional      |      Als Spieler möchte ich einen Hinweis erhalten damit ich weiss wann ich gewonnen habe.           |
+| 3.1  |     Muss         |    Qualität     |      Als Spieler möchte ich wissen ob meine Zahl niedriger ist damit ich bessere Chancen habe die Zahl zu erraten       |
+| 3.2  |         Muss     |  Qualität       |          Als Spieler möchte ich wissen ob meine Zahl höher ist damit ich bessere Chancen habe die Zahl zu erraten       |
+| 3.3 |    Muss          |     Funktinal    |    Als Spieler möchte ich wissen wann ich die rictige Zahl geraten habe.               |
+| 4.0  |     Muss         |   Qualität      |   Als Spieler möchte ich wissen wie viele male ich geraten habe damit ich die Resultate vergleichen kann                |
+| 5.0  | Muss | Funktional | Als Spieler möchte ich dass ich das Spiel richtig spielen kann ohne dass alles bei einer Fehleingabe verloren geht, damit ich richtig spielen kann  |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
-
-### 1.3 Testfälle
-
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
