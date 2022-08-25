@@ -35,7 +35,8 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![image](https://user-images.githubusercontent.com/111046405/186596607-ebfe1275-d260-4f77-b79f-7e63f471ed90.png)
+
 
 ## 2 Planen
 
