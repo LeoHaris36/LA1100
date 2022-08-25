@@ -40,13 +40,14 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |  01.09     |     Sljivar      |       lernen wie man eine zufällige Zahl generiert, implemetieren, die Zahl lesen und festhalten      |      45min         |
-| 2.A, 3.1A, 3.2A, 3.3A |  01.09     |  Sljivar  |    Die Eingabe des Spielers lesen und festhalten, und ein hinweissystem implemetieren damit ich weiss ob ich zu tief, zu hoch oder richtig gerraten habe.  |  45min |
-| 3.1B, 3.2B, 3.3B | 01.09 | SLjivar | Einen Hinweis darauf geben ob man zu tief, zu hoch oder richtig geraten habe  | 45min |
-| 4.A | 8.09 | Sljvar | Alle Resulte speichern und Anzeigen lassen | 45min |
-| 4.B | 8.09 | Sljvar | Alle Resulte speichern und Anzeigen lassen | 45min |
+| 2.A, 3.1A, 3.2A, 3.3A |  08.09     |  Sljivar  |    Die Eingabe des Spielers lesen und festhalten, und ein hinweissystem implemetieren damit ich weiss ob ich zu tief, zu hoch oder richtig gerraten habe.  |  45min |
+| 3.1B, 3.2B, 3.3B | 08.09 | SLjivar | Einen Hinweis darauf geben ob man zu tief, zu hoch oder richtig geraten habe  | 45min |
+| 3.1B, 3.2B, 3.3B | 08.09 | SLjivar | Einen Hinweis darauf geben ob man zu tief, zu hoch oder richtig geraten habe  | 45min |
+| 4.A | 08.09 | Sljvar | Alle Resulte speichern und Anzeigen lassen | 45min |
+| 4.B | 08.09 | Sljvar | Alle Resulte speichern und Anzeigen lassen | 45min |
 | 5.A | 15.09 | Sljivar | Eine Lösung für eine Fehleingaben implementieren | 45min |
 | 5.B | 15.09 | Sljivar | Eine Lösung für eine Fehleingaben implementieren | 45min |
-| ---- | ----- | --------- | ------------ | ------------- |
+
 
 
 Total: 
