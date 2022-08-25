@@ -25,9 +25,24 @@ Ich mache einen Number guesser bei dem man eine Zahl von 1-100 erraten muss
 | 3.2  |         Muss     |  Qualität       |          Als Spieler möchte ich wissen ob meine Zahl höher ist damit ich bessere Chancen habe die Zahl zu erraten       |
 | 3.3 |    Muss          |     Funktional    |    Als Spieler möchte ich wissen wann ich die richtige Zahl geraten habe.               |
 | 4.0  |     Muss         |   Qualität      |   Als Spieler möchte ich wissen wie viele male ich geraten habe damit ich die Resultate vergleichen kann                |
-| 5.0  | Muss | Funktional | Als Spieler möchte ich dass ich das Spiel richtig spielen kann ohne dass alles bei einer Fehleingabe verloren geht, damit ich richtig spielen kann  |
+| 5.0  | Muss | Funktional | Als Spieler möchte ich dass ich eine Fehlermeldung bekommen wenn ich etwas falsches eingegeben habe damit ich richtig spielen kann  |
 | 6.0 | Kann | Qualität | Als Spieler möchte ich ein Punktesystem einführen, in welchem man seine Punkte wetten kann. Je mehr Veruche man braucht um die Zahl zu eraten desto weniger Punkte bekommt. Wenn man zu viele Versuche braucht gibt es minus Punkte, damit man mehr spass hat und mit anderen Punkte vergleichen kann.  |
 
+### 1.3 Testfälle
+
+| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
+| ---- | ------------ | ------- | ----------------- |
+| 1.1  |   Ich habe das Programm für die zufällige Zahl erstellt und gestartet           |    Start des Programmes     |      1*-100*          |
+| 2.1  |    Das Programm ist gestartet und generiert die Zahl         |    Start des Programmes    |  Bitte geben Sie eine Zahl an                 |
+| 3.1.1 | Das Programm ist gestartet, die Zahl ist generiert und sie werden nach einer Zahl gefragt | -5 | Zu tief! |
+| 3.2.1 | Das Programm ist gestartet, die Zahl ist generiert und sie werden nach einer Zahl gefragt | 200 | Zu hoch!! |
+| 3.3.1 | Das Programm ist gestartet, die Zahl ist generiert und sie werden nach einer Zahl gefragt | Richtige Zahl | Korrekt!! |
+| 4.1 | Sie haben die richtige Zahl eraten | Richtige Zahl nach 4x versuchen | Die vorherigen 4x Zahlen |
+| 5.1 | Das Programm fragt sie nach einer Zahl | Hallo | Keine Zahl erkannt = Selbszerstörung aktiviert |
+| 6.1 | Das Programm startet, Sie haben Punkte und das Programm fragt sie ob Sie etwas wetten wollen | 10 | 10 Punkte im Pot, viel glück. |
+| 6.2 | Sie spielen und brauchen nur einen Versuch  | Richtige Zahl* | Korrekt! Jackpot! +x Punkte |
+| 6.3 | Sie spielen und brauchen 3 Versuche und machen somit Gewinn | Richtige Zahl* | Korrekt! Glückwunsch! +x Punkte |
+| 6.4 | Sie spielen und brauchen 5 Versuche und machen somit Verlust | Richtige Zahl* | Korrekt! Sie verlieren jedoch x Punkte, the house always wins. |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
